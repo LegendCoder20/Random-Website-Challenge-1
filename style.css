@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#address-container{
+    background-color: rgb(100, 159, 167);
+    color: white;
+    height: 23px;
+    display: flex;
+    justify-content: space-around;
+}
+#title{
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+#navigation{
+    background-color: rgb(67, 122, 116);
+    color: white;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-links{
+    width: 8.75rem;
+    text-align: center;
+}
+#link-4{
+    width: 14rem;
+}
+#main-content{
+    color: rgb(94, 90, 81);
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content-title{
+    text-align: center;
+    width: 58rem;
+    font-size: 30px;
+}
+#content-information{
+    color: rgb(94, 90, 81);
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+}
+#content-detail{
+    height: 9rem;
+    width: 48rem;
+    text-align: center;
+
+}
+#item-card{
+    display: flex;
+    height: 26rem;
+    width: 92%;
+    margin-left: 3rem;
+    justify-content: space-evenly;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    height: 22rem;
+    width: 15rem;
+    font-size: 22px;
+    text-align: center;
+    border: 3px solid black;
+    box-shadow: 10px 10px 18px grey;
+}
+.items img{
+    height: 16rem;
+}
+.photo-info{
+    color: rgb(100, 159, 167);
+    margin-left: 32px;
+    display: flex;
+    width: 12rem;
+    height: 6rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 970px) {
+    #address-container{
+        background-color: rgb(144, 90, 16);
+        width: 155%;
+    }
+    #title{
+        width: 155%;
+    }
+    #navigation{
+        width: 155%;
+    }
+    #main-content{
+        width: 155%;
+    }
+    #content-information{
+        width: 155%;
+        font-size: 30px;
+    }
+    #item-card{
+        display: grid;
+        width: 146%;
+        padding-top: 17rem
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    #address-container{
+    height: 39px;
+    text-align: center;
+    display: block;
+    }
+    #navigation{
+    display: block;
+    text-align: -webkit-center;
+    height: 276px
+    }
+    .nav-links{
+    text-align: center;
+    width: 98%;
+    height: 40px;
+    border: 3px solid black;
+    }
+    #link-4{
+        width: 98%;
+    }
+    #main-content{
+        margin-top: 2rem;
+    }
+    #content-title{
+        font-size: 22px;
+    }
+    #item-card{
+        width: 125%;
+        margin-top: 22rem;
+        height: 83rem;
+    }
+}
